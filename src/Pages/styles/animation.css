@@ -153,3 +153,10 @@
 .item:nth-child(6):after {
   color: #E8BCB9;
 }
+
+.track1font {
+  color: #ffd5b3;
+  text-shadow: 0 0 10px #000, 0 0 15px #000, 0 0 20px #000;
+  transform: skew(-10deg);
+  animation: flicker 1.5s infinite;
+}
