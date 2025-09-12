@@ -41,14 +41,14 @@ const Contact = () => {
 
   return (
     <div className="contact-container bg-transparent text-white py-10 px-10">
-      <h1 className="text-3xl font-extrabold text-center font-otherfont mb-8 bg-clip-text text-transparent bg-gradient-to-r from-[#fc00ff] to-[#00dbde]">
+      <h1 className="contact_details text-3xl font-extrabold text-center font-otherfont mb-8 bg-clip-text text-transparent bg-gradient-to-r from-[#e8bcb9] to-[#933c4d]">
     CONTACT DETAILS
 </h1>
 
       <div className="tracks-container flex flex-col gap-10">
         {tracks.map((track, index) => (
           <div key={index} className="track">
-            <h2 className="text-2xl font-extrabold text-center mb-6">
+            <h2 className="trackfont text-2xl font-extrabold text-center mb-6">
               {track.trackName}
             </h2>
             <div className="coordinators-column flex flex-wrap justify-center gap-20">
